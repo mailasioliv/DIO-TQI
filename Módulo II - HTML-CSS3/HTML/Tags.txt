@@ -1,0 +1,9 @@
+<!DOCTYPE html> = tipo de documento
+
+<html> </html> = tag que contém todos elementos HTML
+
+<head></head> = informações necessárias para o buscador e navegador
+<meta> = um dos tipos de metainformações que vai dentro de <head> ex. charset que é o incode dos caractéres
+<title></title> = Título na aba do navegdor
+
+<body></body> = conteúdo da página
