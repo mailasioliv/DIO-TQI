@@ -1,0 +1,36 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Sintaxe e Operadores</title>
+</head>
+<body>
+    <h1>Sintaxe e Operadores</h1>
+    <div class="container">
+        <div class="firstStep">
+            <p>Clique no botão para fazer o seu cálculo!</p>
+            <button onclick="go(1, 2)">Iniciar</button>
+        </div>
+        <div class="secondStep">
+            <h3>Calculadora</h3>
+            <hr>
+            <label for="num1">Digite o primeiro número:</label>
+            <input type="number" placeholder="Digite aqui" id="num1">
+            <br><br>
+            <label for="num2">Digite o segundo número:</label>
+            <input type="number" placeholder="Digite aqui" id="num2">
+            <br><br>
+            <button onclick="validate()">Calcular</button>
+        </div>
+        <div class="finalStep">
+            <h3>Resultado!</h3>
+            <p id="resultado"></p>
+            <button onclick="go(3, 2)">Calcular Novamente</button>
+            <button onclick="go(3, 1)">Finalizar</button>
+        </div>
+    </div>
+</body>
+<script src="assets/js/script.js"></script>
+</html>
