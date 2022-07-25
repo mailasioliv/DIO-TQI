@@ -1,6 +1,0 @@
-id = .
-class = #
-margin = espaço entre os elementos
-border	 = circunda o padding e conteúdo, altera largura e cor
-padding = espaçamento entre a borda e conteúdo
-content = conteúdo (texto, imagem ou vídeo)
